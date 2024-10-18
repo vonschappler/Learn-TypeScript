@@ -17,8 +17,8 @@ const menu = [
   },
 ];
 
-const cashInRegister = 100;
-const orderId = 1;
+let cashInRegister = 100;
+let orderId = 1;
 
 const orderQueue = [];
 
@@ -52,8 +52,3 @@ placeOrder('Chicken Bacon Ranch');
 completeOrder('1');
 
 console.log({ menu, cashInRegister, orderQueue });
-
-// console.log(placeOrder('Veggi'));
-// console.log(placeOrder('Veggie'));
-// console.log(placeOrder('Pepperoni'));
-// console.log(completeOrder(1));
