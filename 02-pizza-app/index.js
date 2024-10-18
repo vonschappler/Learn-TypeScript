@@ -52,8 +52,3 @@ placeOrder('Chicken Bacon Ranch');
 completeOrder('1');
 
 console.log({ menu, cashInRegister, orderQueue });
-
-// console.log(placeOrder('Veggi'));
-// console.log(placeOrder('Veggie'));
-// console.log(placeOrder('Pepperoni'));
-// console.log(completeOrder(1));
