@@ -37,7 +37,7 @@ The code for this class can be found [here](./03-pizza-app-ts/)
 <hr>
 <br>
 
-## 4. Devensive coding
+## 4. Defensive coding
 
 This class of the course is focused into explaning the concepts of defensive coding
 
@@ -66,6 +66,17 @@ This class of the course is focused on adding basic types to the pizza App
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App)
 
 The code for this class can be found [here](./06-pizza-app-ts/)
+
+<hr>
+<br>
+
+## 7. Custom types
+
+This class of the course is focused on providing basic knowledge on how to create custom types using TypeScript
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Custom-Types)
+
+The code for this class can be found [here](./07-custom-types/)
 
 <hr>
 <br>
