@@ -29,8 +29,6 @@ const addNewPizza = (newPizza) => {
 
 const placeOrder = (pizzaName) => {
   const pizza = menu.find((menuItem) => menuItem.name === pizzaName);
-  if (!pizza)
-    return `There is no ${pizzaName} on the menu, please consider adding this before placing this order.`;
   cashInRegister += pizza.price;
   const newOrder = { id: orderId++, pizza, status: 'ordered' };
   orderQueue.push(newOrder);
