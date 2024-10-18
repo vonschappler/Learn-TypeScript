@@ -1,3 +1,8 @@
+type Pizza = {
+  name: string;
+  price: number;
+};
+
 const menu = [
   {
     name: 'Margherita',
@@ -22,12 +27,12 @@ let orderId: number = 1;
 
 const orderQueue = [];
 
-const addNewPizza = (newPizza) => {
+const addNewPizza = (newPizza: Pizza) => {
   menu.push(newPizza);
   return menu;
 };
 
-const placeOrder = (pizzaName) => {
+const placeOrder = (pizzaName: string) => {
   const pizza = menu.find((menuItem) => menuItem.name === pizzaName);
   if (!pizza) {
     console.error(
@@ -47,9 +52,9 @@ const completeOrder = (orderId: number) => {
   return order;
 };
 
-addNewPizza({ name: 'Chicken Bacon Ranch', cost: 12 });
-addNewPizza({ name: 'BBQ Chicken', cost: 12 });
-addNewPizza({ name: 'Spicy Sausage', cost: 11 });
+addNewPizza({ name: 'Chicken Bacon Ranch', price: 12 });
+addNewPizza({ name: 'BBQ Chicken', price: 12 });
+addNewPizza({ name: 'Spicy Sausage', price: 11 });
 
 placeOrder('Chicken Bacon Ranch');
 completeOrder(1);
