@@ -39,11 +39,22 @@ The code for this class can be found [here](./03-pizza-app-ts/)
 
 ## 4. Devensive coding
 
-This class of the course is focused into exmplaning the concepts of defensive coding
+This class of the course is focused into explaning the concepts of defensive coding
 
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Defensive-coding)
 
 The code for this class can be found [here](./04-pizza-app-ts/)
+
+<hr>
+<br>
+
+## 4. Typing variables
+
+This class of the course is focused into explaning the basic concepts about typing variables
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-variables)
+
+The code for this class can be found [here](./05-typing-variables/)
 
 <hr>
 <br>
