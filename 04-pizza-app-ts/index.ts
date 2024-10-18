@@ -29,12 +29,15 @@ const addNewPizza = (newPizza) => {
 
 const placeOrder = (pizzaName) => {
   const pizza = menu.find((menuItem) => menuItem.name === pizzaName);
-  if (!pizza)
-    return `There is no ${pizzaName} on the menu, please consider adding this before placing this order.`;
+  if (!pizza) {
+    console.error(
+      `There is no ${pizzaName} on the menu, please consider adding this before placing this order.`
+    );
+    return;
+  }
   cashInRegister += pizza.price;
   const newOrder = { id: orderId++, pizza, status: 'ordered' };
   orderQueue.push(newOrder);
-  console.log(orderQueue, cashInRegister);
   return newOrder;
 };
 
@@ -44,9 +47,9 @@ const completeOrder = (id) => {
   return order;
 };
 
-addNewPizza({ name: 'Chicken Bacon Ranch', price: 12 });
-addNewPizza({ name: 'BBQ Chicken', price: 12 });
-addNewPizza({ name: 'Spicy Sausage', price: 11 });
+addNewPizza({ name: 'Chicken Bacon Ranch', cost: 12 });
+addNewPizza({ name: 'BBQ Chicken', cost: 12 });
+addNewPizza({ name: 'Spicy Sausage', cost: 11 });
 
 placeOrder('Chicken Bacon Ranch');
 completeOrder('1');
