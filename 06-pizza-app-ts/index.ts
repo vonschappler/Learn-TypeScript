@@ -17,8 +17,8 @@ const menu = [
   },
 ];
 
-let cashInRegister = 100;
-let orderId = 1;
+let cashInRegister: number = 100;
+let orderId: number = 1;
 
 const orderQueue = [];
 
@@ -41,8 +41,8 @@ const placeOrder = (pizzaName) => {
   return newOrder;
 };
 
-const completeOrder = (id) => {
-  const order = orderQueue.find((order) => order.id === id);
+const completeOrder = (orderId: number) => {
+  const order = orderQueue.find((order) => order.id === orderId);
   order.status = 'completed';
   return order;
 };
@@ -52,6 +52,6 @@ addNewPizza({ name: 'BBQ Chicken', cost: 12 });
 addNewPizza({ name: 'Spicy Sausage', cost: 11 });
 
 placeOrder('Chicken Bacon Ranch');
-completeOrder('1');
+completeOrder(1);
 
 console.log({ menu, cashInRegister, orderQueue });
