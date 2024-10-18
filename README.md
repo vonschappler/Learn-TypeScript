@@ -17,7 +17,7 @@ Notes about this section can be found [here](https://github.com/vonschappler/Lea
 
 ## 2. Creating the Pizza Application
 
-This classe of the course is focused into creating the application that will be used throughout the course
+This class of the course is focused into creating the application that will be used throughout the course
 
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/The-Pizza-Application)
 
@@ -26,3 +26,24 @@ The code for this class can be found [here](./02-pizza-app/)
 <hr>
 <br>
 
+## 3. Moving the code to TypeScript
+
+This class of the course is focused into converting the initial code provided into TypeScript
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Move-to-TypeScript)
+
+The code for this class can be found [here](./03-pizza-app-ts/)
+
+<hr>
+<br>
+
+## 4. Devensive coding
+
+This class of the course is focused into exmplaning the concepts of defensive coding
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Defensive-coding)
+
+The code for this class can be found [here](./04-pizza-app-ts/)
+
+<hr>
+<br>
