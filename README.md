@@ -80,3 +80,14 @@ The code for this class can be found [here](./07-custom-types/)
 
 <hr>
 <br>
+
+## 8. Nested Object types
+
+This class of the course is focused into explaning how to work with nested object types in TypeScript
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Nested-Object-types)
+
+The code for this class can be found [here](./08-pizza-app-ts/)
+
+<hr>
+<br>
