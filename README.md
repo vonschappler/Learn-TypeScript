@@ -103,7 +103,7 @@ The code for this class can be found [here](./09-nested-opject-types/)
 <hr>
 <br>
 
-## 10. Optional types
+## 10. Optional properties
 
 This class of the course is focused into explaning how to create optional properties in type definitions
 
@@ -121,6 +121,17 @@ This class of the course is focused on adding custom types to the Pizza App.
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-3)
 
 The code for this class can be found [here](./11-pizza-app-ts/)
+
+<hr>
+<br>
+
+## 12. Array types
+
+This class of the course is focused into explaning how to create optional properties in type definitions
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Array-Types)
+
+The code for this class can be found [here](./12-array-types/)
 
 <hr>
 <br>
