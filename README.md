@@ -113,3 +113,14 @@ The code for this class can be found [here](./10-optional-properties/)
 
 <hr>
 <br>
+
+## 11. Typing Pizza App: Part 3
+
+This class of the course is focused on adding custom types to the Pizza App.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-3)
+
+The code for this class can be found [here](./11-pizza-app-ts/)
+
+<hr>
+<br>
