@@ -31,7 +31,7 @@ const menu = [
 let cashInRegister: number = 100;
 let orderId: number = 1;
 
-const orderQueue = [];
+const orderQueue: Order[] = [];
 
 const addNewPizza = (newPizza: Pizza) => {
   menu.push(newPizza);
@@ -54,6 +54,10 @@ const placeOrder = (pizzaName: string) => {
 
 const completeOrder = (orderId: number) => {
   const order = orderQueue.find((order) => order.id === orderId);
+  if (!order) {
+    console.error(`There is no order with the id ${orderId}`);
+    return;
+  }
   order.status = 'completed';
   return order;
 };
