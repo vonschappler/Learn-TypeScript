@@ -105,11 +105,11 @@ The code for this class can be found [here](./09-nested-opject-types/)
 
 ## 10. Optional types
 
-This class of the course is focused into explaning how to work with nested object types in TypeScript
+This class of the course is focused into explaning how to create optional properties in type definitions
 
-Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Optional-Types)
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Optional-Properties)
 
-The code for this class can be found [here](./10-optional-types/)
+The code for this class can be found [here](./10-optional-properties/)
 
 <hr>
 <br>
