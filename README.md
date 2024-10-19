@@ -116,7 +116,7 @@ The code for this class can be found [here](./10-optional-properties/)
 
 ## 11. Typing Pizza App: Part 3
 
-This class of the course is focused on adding custom types to the Pizza App.
+This class of the course is focused on adding nested types to the Pizza App.
 
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-3)
 
@@ -132,6 +132,17 @@ This class of the course is focused into explaning how to create optional proper
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Array-Types)
 
 The code for this class can be found [here](./12-array-types/)
+
+<hr>
+<br>
+
+## 13. Typing Pizza App: Part 3
+
+This class of the course is focused on adding array types to the Pizza App.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-4)
+
+The code for this class can be found [here](./13-pizza-app-ts/)
 
 <hr>
 <br>
