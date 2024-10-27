@@ -179,3 +179,14 @@ The code for this class can be found [here](./16-pizza-app-ts/)
 
 <hr>
 <br>
+
+## 17. Typing Pizza App: Part 6
+
+This class of the course is focused on adding array types to the Pizza App.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-6)
+
+The code for this class can be found [here](./17-pizza-app-ts/)
+
+<hr>
+<br>
