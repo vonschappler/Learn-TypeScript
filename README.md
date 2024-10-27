@@ -136,7 +136,7 @@ The code for this class can be found [here](./12-array-types/)
 <hr>
 <br>
 
-## 13. Typing Pizza App: Part 3
+## 13. Typing Pizza App: Part 4
 
 This class of the course is focused on adding array types to the Pizza App.
 
@@ -165,6 +165,17 @@ This class of the course is focused into explaning the concepts related to union
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Unions)
 
 The code for this class can be found [here](./15-unions/)
+
+<hr>
+<br>
+
+## 16. Typing Pizza App: Part 5
+
+This class of the course is focused on adding array types to the Pizza App.
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-5)
+
+The code for this class can be found [here](./16-pizza-app-ts/)
 
 <hr>
 <br>
