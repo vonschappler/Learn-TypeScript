@@ -157,3 +157,14 @@ The code for this class can be found [here](./14-literal-types/)
 
 <hr>
 <br>
+
+## 15. Unions
+
+This class of the course is focused into explaning the concepts related to unions
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Unions)
+
+The code for this class can be found [here](./15-unions/)
+
+<hr>
+<br>
