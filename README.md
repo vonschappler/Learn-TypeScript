@@ -146,3 +146,14 @@ The code for this class can be found [here](./13-pizza-app-ts/)
 
 <hr>
 <br>
+
+## 14. Literal types
+
+This class of the course is focused into explaning the concepts related to literal types declarations
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Literal-Types)
+
+The code for this class can be found [here](./14-literal-types/)
+
+<hr>
+<br>
