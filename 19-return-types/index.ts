@@ -20,10 +20,14 @@ const users: User[] = [
   },
 ];
 
-const fetchUserDetails = (username: string) => {
+const fetchUserDetails = (username: string): User => {
   const user = users.find((user) => user.username === username);
   if (!user) {
     throw new Error(`User owht username ${username} not found`);
   }
   return user;
+};
+
+const sum = (a: number, b: number) => {
+  return a + b;
 };
