@@ -38,11 +38,11 @@ let orderId: number = 1;
 
 const orderQueue: Order[] = [];
 
-const addNewPizza = (newPizza: Pizza) => {
+const addNewPizza = (newPizza: Pizza): void => {
   menu.push(newPizza);
 };
 
-const placeOrder = (pizzaName: string) => {
+const placeOrder = (pizzaName: string): Order | undefined => {
   const pizza = menu.find((menuItem) => menuItem.name === pizzaName);
   if (!pizza) {
     console.error(
@@ -56,7 +56,7 @@ const placeOrder = (pizzaName: string) => {
   return newOrder;
 };
 
-const completeOrder = (orderId: number) => {
+const completeOrder = (orderId: number): Order | undefined => {
   const order = orderQueue.find((order) => order.id === orderId);
   if (!order) {
     console.error(`There is no order with the id ${orderId}`);
@@ -66,7 +66,9 @@ const completeOrder = (orderId: number) => {
   return order;
 };
 
-export const getPizzaDetail = (identifier: string | number) => {
+export const getPizzaDetail = (
+  identifier: string | number
+): Pizza | undefined => {
   if (typeof identifier === 'string') {
     return menu.find(
       (pizza) => pizza.name.toLowerCase() === identifier.toLowerCase()
