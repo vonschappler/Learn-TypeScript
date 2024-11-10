@@ -67,11 +67,28 @@ const completeOrder = (orderId: number) => {
   return order;
 };
 
+export const getPizzaDetail = (identifier: string | number) => {
+  if (typeof identifier === 'string') {
+    return menu.find(
+      (pizza) => pizza.name.toLowerCase() === identifier.toLowerCase()
+    );
+  } else if (typeof identifier === 'number') {
+    return menu.find((pizza) => pizza.id === identifier);
+  } else {
+    throw new TypeError(
+      'Parameter `identifier` must be of type string or number'
+    );
+  }
+};
+
 addNewPizza({ id: 5, name: 'Chicken Bacon Ranch', price: 12 });
 addNewPizza({ id: 6, name: 'BBQ Chicken', price: 12 });
 addNewPizza({ id: 7, name: 'Spicy Sausage', price: 11 });
 
 placeOrder('Chicken Bacon Ranch');
 completeOrder(1);
+
+getPizzaDetail('Margeritta');
+getPizzaDetail(3);
 
 console.log({ menu, cashInRegister, orderQueue });
