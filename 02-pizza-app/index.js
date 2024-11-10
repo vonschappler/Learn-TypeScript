@@ -24,7 +24,6 @@ const orderQueue = [];
 
 const addNewPizza = (newPizza) => {
   menu.push(newPizza);
-  return menu;
 };
 
 const placeOrder = (pizzaName) => {
