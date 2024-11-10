@@ -193,11 +193,22 @@ The code for this class can be found [here](./17-pizza-app-ts/)
 
 ## 18. Typing Pizza App: Part 7
 
-This class of the course is focused into continue adding types to the Pizza App while creating a new heper function
+This class of the course is focused into continue adding types to the Pizza App while creating a new helper function with narrowed types
 
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-7)
 
 The code for this class can be found [here](./18-pizza-app-ts/)
+
+<hr>
+<br>
+
+## 19. Returning types
+
+This class of the course is focused into understading the concetps of the types returned by functions
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Returnin-Types)
+
+The code for this class can be found [here](./19-returning-types/)
 
 <hr>
 <br>
