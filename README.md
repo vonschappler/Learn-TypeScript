@@ -83,7 +83,7 @@ The code for this class can be found [here](./07-custom-types/)
 
 ## 8. Typing Pizza App: Part 2
 
-This class of the course is focused on adding custom types to the Pizza App.
+This class of the course is focused into continue adding types to the Pizza App
 
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-2)
 
@@ -116,7 +116,7 @@ The code for this class can be found [here](./10-optional-properties/)
 
 ## 11. Typing Pizza App: Part 3
 
-This class of the course is focused on adding nested types to the Pizza App.
+This class of the course is focused into continue adding types to the Pizza App
 
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-3)
 
@@ -138,7 +138,7 @@ The code for this class can be found [here](./12-array-types/)
 
 ## 13. Typing Pizza App: Part 4
 
-This class of the course is focused on adding array types to the Pizza App.
+This class of the course is focused into continue adding types to the Pizza App
 
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-4)
 
@@ -171,7 +171,7 @@ The code for this class can be found [here](./15-unions/)
 
 ## 16. Typing Pizza App: Part 5
 
-This class of the course is focused on adding array types to the Pizza App.
+This class of the course is focused into continue adding types to the Pizza App
 
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-5)
 
@@ -182,11 +182,22 @@ The code for this class can be found [here](./16-pizza-app-ts/)
 
 ## 17. Typing Pizza App: Part 6
 
-This class of the course is focused on adding array types to the Pizza App.
+This class of the course is focused into continue adding types to the Pizza App
 
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-6)
 
 The code for this class can be found [here](./17-pizza-app-ts/)
+
+<hr>
+<br>
+
+## 18. Typing Pizza App: Part 7
+
+This class of the course is focused into continue adding types to the Pizza App while creating a new heper function
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-7)
+
+The code for this class can be found [here](./18-pizza-app-ts/)
 
 <hr>
 <br>
