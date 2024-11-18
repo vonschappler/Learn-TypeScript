@@ -223,3 +223,14 @@ The code for this class can be found [here](./20-pizza-app-ts/)
 
 <hr>
 <br>
+
+## 21. Typing Pizza App: Part 8
+
+This class of the course is focused into continue adding return types to our Pizza application
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Any-type)
+
+The code for this class can be found [here](./21-any-type/)
+
+<hr>
+<br>
