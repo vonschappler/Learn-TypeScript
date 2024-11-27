@@ -14,4 +14,10 @@ const students: Student[] = [
   { name: 'Student F', grade: 5 },
 ];
 
-const getLastItem = (array) => {};
+const getLastItem = (array) => {
+  return array.at(-1);
+};
+
+console.log(getLastItem(scores));
+console.log(getLastItem(favs));
+console.log(getLastItem(students));
