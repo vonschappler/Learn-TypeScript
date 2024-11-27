@@ -4,6 +4,8 @@ type Pizza = {
   price: number;
 };
 
+type NewPizza = Omit<Pizza, 'id'>;
+
 type Order = {
   id: number;
   pizza: Pizza;
@@ -38,9 +40,10 @@ const menu: Pizza[] = [
   },
 ];
 
-const addNewPizza = (newPizza: Pizza): void => {
-  newPizza.id = pizzaId++;
+const addNewPizza = (newPizzaObj: NewPizza): Pizza => {
+  const newPizza: Pizza = { id: pizzaId++, ...newPizzaObj };
   menu.push(newPizza);
+  return newPizza;
 };
 
 const placeOrder = (pizzaName: string): Order | undefined => {
