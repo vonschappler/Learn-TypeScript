@@ -256,3 +256,14 @@ The code for this class can be found [here](./23-utility-types/)
 
 <hr>
 <br>
+
+## 24. Typing Pizza App: Part 10
+
+This class of the course is focused into adding setting up types correctly with utility types
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-10)
+
+The code for this class can be found [here](./24-pizza-app-ts/)
+
+<hr>
+<br>
