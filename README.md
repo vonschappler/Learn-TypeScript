@@ -246,7 +246,7 @@ The code for this class can be found [here](./22-pizza-app-ts/)
 <hr>
 <br>
 
-## 23. Utility Types and Partial
+## 23. Utility Types
 
 This class of the course is focused into learning what are utility types and how to use them in TypeScript
 
@@ -264,6 +264,17 @@ This class of the course is focused into adding setting up types correctly with 
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-10)
 
 The code for this class can be found [here](./24-pizza-app-ts/)
+
+<hr>
+<br>
+
+## 25. Generics
+
+This class of the course is focused into learning about Generics in TypeScript
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Generics)
+
+<!-- The code for this class can be found [here](./23-utility-types/) -->
 
 <hr>
 <br>
