@@ -14,10 +14,14 @@ const students: Student[] = [
   { name: 'Student F', grade: 5 },
 ];
 
-const getLastItem = (array) => {
+function getLastItemNF<Type>(array: Type[]): Type | undefined {
+  return array.at(-1);
+}
+
+const getLastItemAF = <Type>(array: Type[]): Type | undefined => {
   return array.at(-1);
 };
 
-console.log(getLastItem(scores));
-console.log(getLastItem(favs));
-console.log(getLastItem(students));
+console.log(getLastItemNF(scores));
+console.log(getLastItemAF(favs));
+console.log(getLastItemAF(students));
