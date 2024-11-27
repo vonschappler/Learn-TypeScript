@@ -86,13 +86,28 @@ export const getPizzaDetail = (
   }
 };
 
-// this will trigger a type checking error, which will be fixed in later sections
-addNewPizza({ name: 'Chicken Bacon Ranch', price: 12 });
+const addToArray = <I>(arr: I[], item: I): I[] | undefined => {
+  arr.push(item);
+  return arr;
+};
+
 addNewPizza({ name: 'BBQ Chicken', price: 12 });
 addNewPizza({ name: 'Spicy Sausage', price: 11 });
 
+addToArray<Pizza>(menu, {
+  id: pizzaId++,
+  name: 'Chicken Bacon Ranch',
+  price: 12,
+});
+
+addToArray<Order>(orderQueue, {
+  id: orderId++,
+  pizza: menu[2],
+  status: 'completed',
+});
+
 placeOrder('Chicken Bacon Ranch');
-completeOrder(1);
+completeOrder(2);
 
 getPizzaDetail('Margeritta');
 getPizzaDetail(3);
