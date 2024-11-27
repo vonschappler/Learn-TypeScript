@@ -274,7 +274,18 @@ This class of the course is focused into learning about Generics in TypeScript
 
 Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Generics)
 
-<!-- The code for this class can be found [here](./23-utility-types/) -->
+The code for this class can be found [here](./25-generics/)
+
+<hr>
+<br>
+
+## 26. Typing Pizza App: Part 11
+
+This class of the course is focused into adding generic types to the PizzaApp
+
+Notes about this section can be found [here](https://github.com/vonschappler/Learn-TypeScript/wiki/Typing-Pizza-App---part-11)
+
+The code for this class can be found [here](./26-pizza-app-ts/)
 
 <hr>
 <br>
