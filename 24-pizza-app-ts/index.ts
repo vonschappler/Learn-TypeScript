@@ -86,7 +86,6 @@ export const getPizzaDetail = (
   }
 };
 
-// this will trigger a type checking error, which will be fixed in later sections
 addNewPizza({ name: 'Chicken Bacon Ranch', price: 12 });
 addNewPizza({ name: 'BBQ Chicken', price: 12 });
 addNewPizza({ name: 'Spicy Sausage', price: 11 });
